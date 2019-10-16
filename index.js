@@ -9,6 +9,10 @@ class Tree {
 }
 class Deciduous extends Tree{
   constructor(species,name){
-    super()
+    super(species);
+    this.name = name;
+  }
+  static definition(){
+    super.definition() +
   }
 }
